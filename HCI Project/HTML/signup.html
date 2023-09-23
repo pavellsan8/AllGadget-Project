@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="JS File/script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="../script.js" defer></script>
+    <title>Sign up your data here</title>
+</head>
+<body>
+    <div class="register-page">
+        <div class="register-container">
+            <div class="title-regis">Register Your Account Here</div>
+            <form id="regis-form">
+                <div class="user-data">
+                    <div class="input-form">
+                        <span class="details">Full Name</span>
+                        <input placeholder="Enter Your Name" class="edit-text" id="fullname" name="fullname">
+                    </div>
+
+                    <div class="input-form">
+                        <span class="details">Email</span>
+                        <input type="text" placeholder="Enter Your Email" class="edit-text" id="email" name="email">
+                    </div>
+
+                    <div class="input-form">
+                        <span class="details">Phone Number</span>
+                        <input type="text" placeholder="Enter Your Phone Number" class="edit-text" id="phonenum" name="phonenum">
+                    </div>
+
+                    <div class="input-form">
+                        <span class="details">Password</span>
+                        <input type="password" placeholder="Enter Your Password" class="edit-text" id="password" name="password">
+                    </div>
+
+                    <div class="input-form">
+                        <span class="details">Gender</span>
+                        <div class="gender-container">
+                            <input type="radio" name="gender" value="male" id="male" class="dot-picker">  
+                            <label for="male">Male</label>
+                            <input type="radio" name="gender" value="female" id="female" class="dot-picker">    
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+
+                    <div class="input-form">
+                        <div class="checkbox">
+                            <input type="checkbox" id="terms-policy" name="terms-policy" class="check-box"> 
+                            <label for="tac" class="terms-policy">I agree to follow the Terms and Policy of AllGadget Store</label>
+                        </div>                   
+                    </div>
+
+                    <p id="error-text" class="error-text" style="color: red"></p>
+
+                    <div class="signup-btn">     
+                        <a href="/HTML/allgadget.html">
+                            <!-- <button type="button" class="btn-signup" id="btn-signup">Sign Up Now</button> -->
+                            <input type="submit" value="Sign Up Now">
+                        </a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <p class="footer-title">AllGadget</p>
+                    <div class="horizon-line"></div>
+                    <ul>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="#">Help & support</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms and condition</a>
+                        </li>
+                        <li>
+                            <a href="#">Privacy and policy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-title">Contact us</p>
+                    <div class="horizon-line"></div>
+                    <div class="contact-wrapper">
+                        <div class="icon-footer">
+                            <a href="#">
+                                <i class="fa fa-map-marker"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fa fa-envelope-o"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fa fa-phone"></i>
+                            </a>
+                        </div>
+                        <div class="desc-footer">
+                            <ul>
+                                <li>
+                                    <a href="#">Karet Semanggi, South Jakarta</a>
+                                </li>
+                                <li>
+                                    <a href="#">allgadget@mail.com</a>
+                                </li>
+                                <li>
+                                    <a href="#">(021) 2884938</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <p class="footer-title">Follow us on</p>
+                    <div class="horizon-line"></div>
+                    <div class="social-media">
+                        <a href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-youtube"></i>
+                        </a>
+                    </div> 
+                </div>
+                <div class="copyright">Copyright © 2023 AllGadget all right reserved</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
